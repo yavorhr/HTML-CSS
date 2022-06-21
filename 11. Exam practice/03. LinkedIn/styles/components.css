@@ -1,0 +1,87 @@
+.btn{
+    min-width: 120px;
+    padding: 12px 6px;
+    border-radius: 20px;
+    border: 1px solid var(--color-blue);
+    background-color: #fff;
+    color: var(--color-blue);
+    cursor: pointer;
+}
+
+.btn--primary{
+    background-color: var(--color-blue);
+    color: white;
+}
+
+.btn--primary:hover{
+    background-color: #fff;
+    color: var(--color-blue);
+}
+
+/* Tags  */
+
+.tag{
+    background-color: var(--dark-gray);
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 14px 18px;
+}
+
+.btn--secondary {
+    border-radius: 50px;
+    padding: 12px 10px;
+    border: 1px solid grey;
+    color: grey;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+}
+
+.btn--secondary:hover {
+    color: #FFFFFF;
+    background-color: grey
+}
+
+/* Footer */
+
+.footer .icon {
+    color: var(--color-blue);
+    font-size: 30px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: grey;
+    line-height: 1.5;
+}
+
+
+.footer span {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+footer i {
+    color: var(--color-blue);
+    font-size: 30px;
+}
+
+/* Nav */
+
+.header a{
+    text-decoration: none;
+}
+
+.header span {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.header .icon {
+    color: var(--color-blue);
+    font-size: 30px;
+}
