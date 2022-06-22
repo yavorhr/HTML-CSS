@@ -1,0 +1,218 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+:root {
+    --color-orange: #E24E2A;
+    --color-light-gray: #ECECEC;
+    --color-black: #253235;
+    --color-background-nav: #FFFFFF;
+    --color-light-black: #383838;
+    --color-green: #1B9772;
+    --color-light-grey-font: #B4B4B4;
+    --color-dark-grey-font: #787878;
+    --color-font-info-section: #F3C3B4;
+    --color-main-section: #383838;
+}
+
+/* .section__wrapper__padding{
+    padding : 0
+} */
+
+/* ===== Header and Navigation ===== */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 30px 12px;
+    background-color: var(--color-background-nav);
+}
+
+.site__title__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.site__title__wrapper h1 {
+    margin-right: 20px;
+}
+
+.site__title__wrapper p {
+    position: relative;
+    top: 4px;
+    font-size: 13px;
+}
+
+.site__title__wrapper h1::after {
+    content: "";
+    position: relative;
+    display: inline-flex;
+    background: #787878;
+    height: 40px;
+    top: 10px;
+    left: 10px;
+    color: gray;
+    width: 2px;
+}
+
+.nav__items {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+}
+
+.nav__items .nav__item a {
+    text-decoration: none;
+    color: var(--color-dark-grey-font);
+    font-weight: bold;
+    background-color: var(--color-light-gray);
+    padding: 12px 16px;
+    font-size: 15px;
+}
+
+.nav__items .nav__item a:hover {
+    color: white;
+    background-color: var(--color-orange);
+}
+
+.img-wrapper img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ===== Info section ====== */
+
+
+.info__section {
+    padding: 40px 160px 60px;
+    text-align: center;
+    background-color: var(--color-orange);
+    color: var(--color-font-info-section);
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.info__section a {
+    color: #ECECEC;
+}
+
+/* Main section */
+
+.main__section {
+    padding: 50px 25px 80px;
+}
+
+.main__section__list__items {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 12px;
+    text-align: center;
+}
+
+
+.main__section {
+    background-color: var(--color-main-section)
+}
+
+.main__section__item h3 {
+    color: white;
+    border-bottom: 2px solid var(--color-dark-grey-font);
+    padding-bottom: 15px;
+}
+
+.main__section__item i {
+    color: white;
+    font-size: 40px;
+    background-color: var(--color-orange);
+    padding: 20px 20px;
+    width: fit-content;
+    margin-bottom: 5px;
+}
+
+.main__section__item p {
+    padding-top: 20px;
+    color: var(--color-light-grey-font);
+}
+
+/* CTA section */
+
+.cta__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 25px 40px;
+    line-height: 1.5;
+
+}
+
+.cta__section h1 {
+    color: #5D5D5D;
+}
+
+.cta__section p {
+    color: var(--color-light-grey-font)
+}
+
+.cta--button {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    background-color: #1B9772;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 200px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cta--button:hover {
+    background-color: #FFFFFF;
+    border: 3px solid #1B9772;
+    color: #1B9772;
+}
+
+
+/* Section content */
+.section__content {
+    background-color: var(--color-light-black);
+    height: 200px;
+    padding: 60px 15px 80px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__content .section__content__items {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.section__content__items h3 {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.section__content__items p {
+    color: var(--color-dark-grey-font);
+}
+
+.footer {
+    text-align: center;
+    height: 150px;
+    padding: 70px;
+    text-align: center;
+    background-color: #1B9772;
+    color: var(--color-dark-grey-font)
+}
+
+.footer a {
+    color: var(--color-light-grey-font)
+}
