@@ -1,0 +1,33 @@
+@media screen and (max-width:600px) {
+    .w3-right.w3-hide-small {
+
+    /* hide navigation links */        
+        display: none;
+    }
+
+    .w3-col.m6.w3-padding-large,
+    .w3-col.m6.w3-padding-large.w3-hide-small {
+        float: none;
+    }
+    /* hide image */ 
+    .w3-col.m6.w3-padding-large.w3-hide-small {
+        display: none;
+    }
+
+    /* Our menu section resize */
+    .w3-col.m6.w3-padding-large {
+        width: 460px;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right:0;
+    }
+
+    .w3-col.l6.w3-padding-large{
+        width: 100%;
+    }
+
+    .w3-container.w3-padding-64{
+        width: 81%;
+        padding-right: 0px;
+    }
+}
