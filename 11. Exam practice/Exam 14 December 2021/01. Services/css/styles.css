@@ -1,0 +1,84 @@
+/*
+---------------
+    GLOBAL
+---------------
+*/
+
+body {
+    font-family: "Poppins", serif;
+}
+
+:root {
+    --bckgrnd-grey-card-clr: #F7F7F7;
+    --bckgrnd-green-button-clr: #A4C639;
+}
+
+.section {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.list__items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/*
+---------------
+    TITLE
+---------------
+*/
+
+.section__title {
+    text-align: center;
+}
+
+.section__title span {
+    color: var(--bckgrnd-green-button-clr);
+}
+
+.section__title h1 {
+    font-size: 3em;
+}
+
+.section__title p {
+    margin-bottom: 60px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    color: grey;
+    font-weight: 500;
+}
+
+/*
+---------------
+    CARDS
+---------------
+*/
+
+.card {
+    background-color: var(--bckgrnd-grey-card-clr);
+    padding: 20px;
+}
+
+.list__item .card h3 {
+    font-size: 1.5em;
+    margin: 20px 0px;
+}
+
+.list__item .card p {
+    color: grey;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.list__item .btn {
+    background-color: var(--bckgrnd-green-button-clr);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+}
