@@ -1,0 +1,256 @@
+/* 
+----------------
+    GLOBAL 
+---------------
+*/
+
+body {
+    font-family: "Gelasio";
+}
+
+:root {
+    --header-grey-clr: #E6E3DE;
+    --header-links-grey-clr: #594D3C;
+    --var-white-clr: #FFF;
+    --var-serach-bar-grey-clr: rgba(230, 227, 222, 0.671);
+    --var-article-backgrnd-clr: #E6E3DE;
+    --var-btn-orange-clr: #DC4F36;
+}
+
+/* 
+----------------
+    HEADER 
+----------------
+*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--header-grey-clr);
+    height: 5vh;
+    align-items: center;
+    padding: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main_nav{
+    width: 25%;
+    justify-content: space-between;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--header-links-grey-clr);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+header h1 {
+    color: var(--header-links-grey-clr);
+    font-size: 3em;
+}
+
+.nav .btn {
+    background-color: var(--header-links-grey-clr);
+    color: var(--var-white-clr);
+    padding: 8px 10px;
+    border: none;
+    margin-right: 20px;
+}
+
+/* 
+----------------
+ SEARCH SECTION 
+----------------
+*/
+
+.search-bar {
+    position: relative;
+    height: 30vh;
+    background-image: url("../Media/craving.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.search-bar .content {
+    position: absolute;
+    width: 700px;
+    top: 150px;
+    left: 36%;
+}
+
+.search-bar h1 {
+    color: var(--var-white-clr);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    border: none;
+    width: 80%;
+    padding: 10px;
+    opacity: 0.6;
+    background-color: rgba(230, 227, 222, 0.671);
+}
+
+.search-bar .content .fa-magnifying-glass {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: black;
+    font-size: large;
+}
+
+/* 
+----------------
+ MAIN SECTION 
+----------------
+*/
+
+main {
+    position: relative;
+    background-image: url("../Media/background.jpg");
+}
+
+article {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: var(--var-article-backgrnd-clr);
+}
+
+article img {
+    width: 60%;
+}
+
+article .section__info {
+    width: 40%;
+    padding: 20px;
+}
+
+article .section__info h2 {
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+article .section__info h3 {
+    margin-bottom: 20px;
+    font-size: 2em
+}
+
+article .section__info button {
+    background-color: var(--header-links-grey-clr);
+    color: var(--var-white-clr);
+    padding: 6px 14px;
+    border: none;
+}
+
+/* 
+----------------
+ TOOLBOX SECTION 
+----------------
+*/
+
+.toolbox_section h2 {
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.toolbox_section .toolbox__items {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+.toolbox__item {
+    width: 15%;
+    text-align: center;
+}
+
+.toolbox__item a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.toolbox__item .content {
+    padding: 20px;
+    background-color: white;
+    opacity: 0.6;
+}
+
+
+.btn__container {
+    height: 100px;
+    position: relative;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.center button {
+    width: 250px;
+    background-color: var(--var-btn-orange-clr);
+    color: white;
+    border: none;
+    padding: 10px 0;
+    opacity: 0.7;
+}
+
+/* 
+----------------
+ TOOLBOX SECTION 
+----------------
+*/
+
+footer {
+    display: flex;
+
+    justify-content: space-between;
+    padding: 50px;
+    background-color: var(--var-serach-bar-grey-clr);
+    opacity: 0.9;
+}
+
+footer ul {
+    display: flex;
+    gap: 20px;
+}
+
+footer ul li {
+    border-right: 2px solid grey;
+    padding-right: 10px;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: black;
+    opacity: unset;
+}
+
+footer li:last-child{
+    border-right: unset;
+
+}
