@@ -1,0 +1,97 @@
+@media screen and (max-width:600px) {
+
+    section {
+        padding: 0px;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-to-right {
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .left-to-right article {
+        width: 200px;
+        padding: 0px !important;
+        font-size: 12px;
+        border-radius: 50px !important;
+    }
+
+    .left-to-right p {
+        padding: 0px 20px;
+    }
+
+    .left-to-right button {
+        display: none;
+    }
+
+    .left-to-right:first-child {
+        height: 490px;
+    }
+
+    main section:last-child {
+        flex-direction: column;
+    }
+
+    form {
+        width: 300px;
+    }
+
+    form input {
+        width: 150px !important;
+    }
+
+    main section:nth-child(2) button {
+        display: none;
+    }
+
+    main section:nth-child(3) article {
+        font-size: 18px !important;
+    }
+
+    main section:nth-child(3) article header h1 {
+        font-size: 30px !important;
+        margin-bottom: unset;
+    }
+
+    main section:last-child {
+        margin: 0;
+        padding: 0;
+    }
+
+    main section:last-child article form {
+        width: fit-content;
+    }
+
+    main section:last-child article form input,
+    main section:last-child article form textarea  {
+       display: block !important;
+      border-bottom: none;
+    }
+
+    main section:last-child article form label{
+        border-bottom: 1px solid grey;
+    }
+
+    main section:last-child article form label:last-child{
+        border-bottom: none !important;
+    }
+
+    main section:last-child article form input[type="submit"]{
+        width: 100px !important;
+    }
+
+    main section:last-child article img {
+        width: 60%;
+    }
+
+    main section:last-child article {
+        justify-content: center;
+        align-items: center;
+    }
+
+}
