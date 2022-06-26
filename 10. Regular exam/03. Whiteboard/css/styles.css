@@ -1,0 +1,261 @@
+/* 
+-----------------
+    GLOBAL
+-----------------
+*/
+
+body {
+    font-family: "PT Sans";
+}
+
+:root {
+    --green-btn-clr: #00D08E;
+    --footer-backgrnd: #B2F1DD;
+}
+
+.section {
+    padding: 0px 100px;
+}
+
+/* 
+----------------------------
+    HERO SECTION & HEADER
+----------------------------
+*/
+
+.hero {
+    background-image: url("../image/computer-main.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin: 0 100px;
+    padding: 0 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("../image/computer-main.jpg");
+}
+
+.hero .header {
+    height: 50px;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+.hero__article {
+    text-align: center;
+}
+
+.hero .header nav .nav__items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero .header nav .nav__items li a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.52);
+    font-size: 20px;
+}
+
+.hero .header nav .nav__items li a i {
+    margin-right: 7px;
+}
+
+.hero__article h1 {
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.52);
+    font-size: 63px;
+    letter-spacing: 2px;
+}
+
+.hero__article p {
+    color: white;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.52);
+    width: 700px;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.hero__article .btn {
+    background-color: var(--green-btn-clr);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    font-size: 20px;
+}
+
+.hero__article .btn:hover {
+    background-color:transparent;
+    border: 3px solid white;
+}
+
+
+.hero__article a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.52);
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+/* 
+----------------------------
+    ABOUT
+----------------------------
+*/
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .about__article ul p {
+    display: inline-block;
+}
+
+.about__article {
+    padding: 29px;
+}
+
+.about__article h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+
+.about__article h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px
+}
+
+.about__article ul li i {
+    color: var(--green-btn-clr);
+    font-size: 24px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.about__article ul li {
+    margin-bottom: 20px;
+}
+
+
+/* 
+----------------------------
+      INFORMATION
+----------------------------
+*/
+
+.information ul {
+    text-align: center;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 250px 250px 250px;
+}
+
+.information h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 90px;
+}
+
+.information ul {
+    margin: 0 auto;
+}
+
+.information ul li {
+    margin: 0 auto;
+}
+
+.information__article {
+    width: 50%;
+}
+
+.information .image__wrapper {
+    width: 50%;
+}
+
+.information .image__wrapper img {
+    width: 100%;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.information article ul li img {
+    width: 100px;
+    height: 100px;
+}
+
+
+.information article ul li p {
+    color: var(--green-btn-clr);
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+/* 
+----------------------------
+         FOOTER
+----------------------------
+*/
+
+footer {
+    background-color: var(--footer-backgrnd);
+    height: 50vh;
+    margin: 0 100px;
+}
+
+.footer__list__items {
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px 400px 400px;
+    gap: 30px;
+}
+
+footer h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+.footer__list__items h3 {
+    font-size: 25px;
+}
+
+.footer__list__items p {
+    font-size: 17px
+}
+
+.email__us__paragraph {
+    font-size: 17px;
+    text-align: center;
+    padding-top:60px;
+}
+
+footer .email__us__link {
+    font: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    text-shadow: 1px 0 black;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
