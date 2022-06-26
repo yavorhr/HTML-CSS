@@ -1,0 +1,126 @@
+
+
+/* 
+----------------------
+        GLOBAL
+----------------------
+*/
+
+body{
+    font-family: "Poppins";
+}
+
+:root {
+    --vblue-color: #04E2DE;
+    --black-color: black;
+    --white-color:white;
+    --grey-color:#DEEAE7;
+    --black-font-color:#312A2C;
+}
+
+/* 
+----------------------
+   SECTION & HEADER
+----------------------
+*/
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+
+header{
+    background-color: var(--black-color);
+    padding: 20px 15px 10px 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+header h1 {
+    color: var(--vblue-color);
+    font-size: 40px;
+}
+
+header p{
+    color: var(--white-color);
+    font-size: 20px;
+}
+
+/* 
+----------------------
+       ARTICLE
+----------------------
+*/
+
+.article__content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    padding: 10px;
+}
+
+.img__content{
+    border: 1px solid black;
+    padding: 5px 10px;
+    width: 40%;
+    margin-right: 40px;
+  
+}
+
+.article__descr{
+   font-size: 32px;
+   line-height: 1.6;
+   width: 70%;
+   color: var(--black-font-color);
+}
+
+.img__holder{
+    background-image: url("../Requirements-and-Resources/Earth.jpg");
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+}
+
+.img__descr{
+    color: var(--black-font-color);
+    margin-top: 7px;
+    font-size: 20px;
+    line-height: 1.6;  
+}
+
+/* 
+-------------------------
+    SECOND ARTICLE
+-------------------------
+*/
+
+.additional__article{
+    position: relative;
+    background-color: var(--grey-color);
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.additional__article h3{
+    position: absolute;
+    bottom: 116px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    padding: 10px;
+    left: 0;
+}
+
+.additional__article p{
+    color: var(--black-font-color);
+    letter-spacing: 1.2px;
+}
+
+.additional__article span{
+    font-weight: bold;
+}
