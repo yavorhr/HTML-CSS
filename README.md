@@ -26,3 +26,5 @@ The aim of the course [HTML & CSS](https://softuni.bg/trainings/3726/html-and-cs
 - Media Queries
 - Design to Code - Demo Project
 
+![HTML   CSS - May 2022 - Certificate](https://user-images.githubusercontent.com/76119513/177129718-d13fe69b-8c22-4af9-a20f-985b39804309.jpeg)
+
