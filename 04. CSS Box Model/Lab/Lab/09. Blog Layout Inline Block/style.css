@@ -1,0 +1,28 @@
+aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.first-article{
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+article{
+    width: 600px;
+}
+
+img{
+    width: 400px;
+}
+
+body{
+    padding-left: 20px;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51) ;
+}
+
+
+
+

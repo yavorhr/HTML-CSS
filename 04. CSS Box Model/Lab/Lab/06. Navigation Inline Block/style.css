@@ -1,0 +1,32 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+.list-items {
+    border-bottom: 2px solid black;
+    padding-bottom: 30px;
+    padding-left: 0;
+}
+
+.nav-item {
+    margin-right: 30px;
+    display: inline-block;
+}
+
+/* nav{
+    display: inline-block;
+} */
+
+nav {
+    padding-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #3BA135;
+}
+
+h1,
+p {
+    padding-left: 40px;
+}
