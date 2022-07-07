@@ -1,0 +1,61 @@
+body {
+
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: grid;
+    grid-template-columns: 100px, auto;
+    grid-template:
+        "header header"
+        "aside main"
+        "footer footer";
+    gap: 20px;
+
+}
+
+#header {
+    grid-area: header;
+    background-color: rgb(181, 216, 255);
+}
+
+.welcome-header {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 10px;
+    
+}
+
+#aside {
+    grid-area: aside;
+    background-color: rgb(181, 216, 255);
+}
+
+.list-items {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(181, 216, 255);
+}
+
+.list-items a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 0px;
+    color: rgb(86, 40, 129);
+}
+
+#main {
+    grid-area: main;
+    background-color: rgb(181, 216, 255);
+    margin: 0 0;
+}
+
+#main h1{
+    margin-top: 0;
+    padding: 5px;
+}
+
+#footer {
+    grid-area: footer;
+    background-color: rgb(181, 216, 255);
+    padding: 20px;
+}
