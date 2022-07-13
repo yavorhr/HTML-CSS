@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+
+}
+
+img:first-child,
+img:last-child,
+img:nth-child(3) {
+    width: 100px;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 3px 15px 5px #000000;
+    box-shadow: 2px 3px 15px 5px #000000;
+}

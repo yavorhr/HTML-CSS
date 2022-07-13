@@ -1,0 +1,93 @@
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    gap: 5%;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+#header {
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    flex-basis: 100%;
+}
+
+.site-title{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+#main {
+    width: 65%;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+/* Images */
+
+.img1 {
+    float: right;
+    border: 2px solid black;
+    padding: 3px;
+    -webkit-box-shadow: 2px 3px 15px 5px #000000;
+    box-shadow: 2px 3px 15px 5px #000000;
+    background-color: rgb(255, 255, 255);
+}
+
+.img2 {
+    float: left;
+    border: 2px solid black;
+    padding: 3px;
+    -webkit-box-shadow: 2px 3px 15px 5px #000000;
+    box-shadow: 2px 3px 15px 5px #000000;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Aside navigation */
+
+#aside {
+    width: 30%;
+}
+
+.aside-header{
+    margin-top: 10px;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+/* Two columns in second article */
+
+.split-column-paraprah {
+    height: 200px;
+}
+
+
+.split-column {
+    display: flex;
+}
+
+.author-name {
+    float: right;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #524c4f;
+    border-left: 2px solid #524c4f;
+    height: 150px;
+    padding-left: 5px;
+}

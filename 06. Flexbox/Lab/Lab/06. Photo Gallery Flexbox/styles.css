@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+li{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+}
