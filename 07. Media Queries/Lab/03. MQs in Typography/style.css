@@ -1,0 +1,119 @@
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #EEEEEE;
+  margin-left: 5%;
+  margin-right: 8%;
+  margin-top: 2%;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: rgb(238, 238, 238);
+}
+
+article {
+  margin-left: 0%;
+}
+
+header {
+  font-family: Helvetica, sans-serif;
+}
+
+
+p.site-title {
+  display: inline;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 200%;
+}
+
+.header {
+  font-size: 200%;
+  font-family: Georgia, serif;
+  font-size: 1em/1.2;
+}
+
+p {
+  font-size: 100%;
+}
+
+hr {
+  border: 2px solid black;
+  margin: auto 9.5%;
+  margin-right: 25px;
+}
+
+.picture1 {
+  float: right;
+}
+
+.picture2 {
+  float: left;
+}
+
+.two-columns {
+  column-count: 2;
+  column-rule-style: solid;
+  column-rule-width: 5px;
+  column-rule-color: #DCDCDC;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+}
+
+.author-quote {
+  font-style: italic;
+  color: #524C4F;
+}
+
+.author-name {
+  font-style: italic;
+  float: right;
+  color: #524C4F;
+}
+
+@media screen and (max-width:500px) {
+  body {
+    font-size: 12x;
+    text-align: left;
+  }
+
+  .picture1 {
+    float: none;
+  }
+
+  h1 {
+    font-size: 5px;
+    font-weight: 300;
+  }
+
+
+
+}
+
+@media screen and (max-width:600px) {
+  * {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  * {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:1300px) {
+  * {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width:1800px) {
+  * {
+    font-size: 23px;
+  }
+}
